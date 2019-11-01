@@ -1,0 +1,12 @@
+<form class="form" role="form" autocomplete="off" id="sampleForm" name="sampleForm"
+style="padding-bottom: 10px" [formGroup]="sampleForm"
+(submit)='loginDetails(sampleForm.value)'>
+<div style="text-align:center">
+<table>
+    <tr><td>User Name</td><td><input type="text" formControlName="username"></td></tr>
+    <tr><td>Password</td><td><input type="password" formControlName="password"></td></tr>
+    <tr><td></td><td><input type="submit"></td></tr>
+</table>
+</div>
+</form>
+  
